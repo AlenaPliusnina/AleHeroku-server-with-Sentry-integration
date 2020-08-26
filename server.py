@@ -4,9 +4,12 @@ import sentry_sdk
 from bottle import Bottle, run
 from sentry_sdk.integrations.bottle import BottleIntegration
 
+from dotenv import load_dotenv
+load_dotenv()
+
 # Интеграция с Sentry
 sentry_sdk.init(
-    dsn="https://eafef4feae154349800a1a84e8d4c79b@o439202.ingest.sentry.io/5405845",
+    dsn=os.environ['DSN_ENV'],
     integrations=[BottleIntegration()]
 )
 
