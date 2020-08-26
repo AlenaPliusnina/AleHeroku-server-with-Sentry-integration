@@ -1,4 +1,4 @@
-dotenv
+python-dotenv
 bottle
 gunicorn
 sentry_sdk
