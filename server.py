@@ -7,7 +7,7 @@ from sentry_sdk.integrations.bottle import BottleIntegration
 from dotenv import load_dotenv
 load_dotenv()
 
-# Интеграция с Sentry
+# Интеграция с Sentry. Переменная DSN_ENV в файле .env
 sentry_sdk.init(
     dsn=os.environ['DSN_ENV'],
     integrations=[BottleIntegration()]
