@@ -1,8 +1,9 @@
-# 
+# Heroku server with Sentry integration
 
 Чтобы проверить работу сервера на heroku перейдите по ссылке: https://blooming-beyond-37568.herokuapp.com/ 
 
 Описание:
+
 1. При переходе по адресу https://blooming-beyond-37568.herokuapp.com/success сервер возвращает статус - HTTP 200 OK
 
 ![Ответ сервера success](https://github.com/AlenaPliusnina/Heroku-server-with-Sentry-integration/blob/master/screenshots/success.png)
@@ -11,7 +12,7 @@
 
 ![Ответ сервера fail](https://github.com/AlenaPliusnina/Heroku-server-with-Sentry-integration/blob/master/screenshots/fail.png)
 
-При этом все ошибки приложения попадают в вашу информационную панель Sentry.io (https://sentry.io/welcome/) — комплексного инструмента для сбора и анализа ошибок приложения. 
+При этом все ошибки приложения попадают в информационную панель Sentry.io (https://sentry.io/welcome/) — комплексного инструмента для сбора и анализа ошибок приложения. 
 
 ![Логи в Sentry](https://github.com/AlenaPliusnina/Heroku-server-with-Sentry-integration/blob/master/screenshots/sentry_1.png)
 
